@@ -16,10 +16,7 @@ To control the brightness of an LED using a Potentiometer and PWM (Pulse Width M
 - 10 kΩ Potentiometer
 - Jumper Wires
 
-# Circuit Diagram
 
----
-To upload
 ---
 
 # Procedure
