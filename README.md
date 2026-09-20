@@ -68,13 +68,27 @@ To upload
 3. Record the observations.
 
 # Program
-
+```
+int potPin=A0;
+int ledPin=9;
+void setup(){
+  pinMode(ledPin, OUTPUT);
+}
+void loop(){
+  int potValue = analogRead(potPin);
+  int brightness = map(potValue,0,1024,0,255);
+  analogWrite(ledPin,brightness);
+}
+```
 ---
 To upload
 ---
 
 # Observation
 
+<img width="1417" height="632" alt="image" src="https://github.com/user-attachments/assets/610ab098-5b2d-4a4d-9201-930b5bf4fcc8" />
+
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/0d73d74a-2e9f-4a89-aeaf-0efa67548cc0" />
 
 # Result
 
